@@ -1,0 +1,2 @@
+general.php==modifier test
+advanced.php==confir + refus

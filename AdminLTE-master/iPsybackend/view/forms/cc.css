@@ -1,0 +1,100 @@
+:root{
+    --borderColor: #c1c1c1;
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+}
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #081372;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+    padding: 25px;
+}
+
+.nav-links a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* Ajouter evenement */
+
+.add-even{
+    background-color: #bdc0da;
+    margin: 80px 60px;
+    display: block;
+    justify-self: center;
+    border: 2px solid peru;
+    
+}
+.add-even h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.button{
+    float: right;
+    padding: 60px 35px;
+}
+button{
+    /* float: right; */
+    margin-right: 15px;
+}
+
+
+#formulaire{
+    display: block;
+    max-width: 660px;
+    margin: 0 auto;
+    border: 1px solid var(--borderColor);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--mainColor);
+    margin-bottom: 50px;
+    min-height: 100px;
+    font-size: 14px;
+}
+
+#formulaire label{
+    line-height: 2.7em;
+}
+
+.input-field{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--secondaryColor);
+    border-radius: 5px;
+    border: 1px solid var(--borderColor);
+    font-size: 14px;
+}
+.input-fieldd{
+    margin-bottom: 30px;
+}
+
